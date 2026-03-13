@@ -1,9 +1,5 @@
 🏋️ FITMASTER - Персональный тренер для домашних тренировок
-https://img.shields.io/badge/React-18.2.0-blue
-https://img.shields.io/badge/PHP-8.0+-purple
-https://img.shields.io/badge/MySQL-5.7+-orange
-https://img.shields.io/badge/Tailwind-3.3-06B6D4
-https://img.shields.io/badge/License-MIT-green
+
 
 📋 О проекте
 FITMASTER - это веб-приложение для подбора персонализированных домашних тренировок на основе доступного оборудования и целевых мышечных групп. Проект представляет собой полноценную платформу с авторизацией, профилями пользователей, статистикой тренировок и системой достижений.
