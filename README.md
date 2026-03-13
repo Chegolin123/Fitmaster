@@ -1,16 +1,56 @@
-# React + Vite
+🏋️ FITMASTER - Персональный тренер для домашних тренировок
+https://img.shields.io/badge/React-18.2.0-blue
+https://img.shields.io/badge/PHP-8.0+-purple
+https://img.shields.io/badge/MySQL-5.7+-orange
+https://img.shields.io/badge/Tailwind-3.3-06B6D4
+https://img.shields.io/badge/License-MIT-green
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📋 О проекте
+FITMASTER - это веб-приложение для подбора персонализированных домашних тренировок на основе доступного оборудования и целевых мышечных групп. Проект представляет собой полноценную платформу с авторизацией, профилями пользователей, статистикой тренировок и системой достижений.
 
-Currently, two official plugins are available:
+https://screenshot.png
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Основные возможности
+🎯 Умный подбор тренировок - выбор оборудования и мышечных групп
 
-## React Compiler
+💪 40+ готовых тренировок - с детальным описанием упражнений
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⏱️ Таймер тренировок - с чередованием подходов и отдыха
 
-## Expanding the ESLint configuration
+📊 Статистика прогресса - отслеживание выполненных тренировок
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🏆 Система достижений - мотивация через игровые механики
+
+❤️ Избранное - сохранение любимых тренировок
+
+👤 Профиль пользователя - с аватаром и личными данными
+
+📱 Адаптивный дизайн - отлично выглядит на всех устройствах
+
+🛠 Технологический стек
+Frontend
+React 18 - современная библиотека для UI
+
+React Router 6 - навигация и роутинг
+
+Tailwind CSS - стилизация и адаптив
+
+Framer Motion - плавные анимации
+
+Backend
+PHP 8.0+ - серверная логика
+
+MySQL - база данных
+
+PDO - безопасная работа с БД
+
+JWT-подобные токены - аутентификация
+
+Инфраструктура
+Vite - быстрая сборка
+
+OpenServer - локальная разработка
+
+Hostiman - хостинг
+
+Let's Encrypt - SSL сертификат
