@@ -1,0 +1,12 @@
+# Разрешить CORS
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "http://s273934.h1n.ru"
+    Header set Access-Control-Allow-Credentials "true"
+    Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+</IfModule>
+
+# Обработка OPTIONS запросов
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=200,L]
